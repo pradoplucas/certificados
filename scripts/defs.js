@@ -61,29 +61,29 @@ function searchName(){
 }
 
 function searchCertificates(nome) {
-    document.getElementById("input-search").value = "nome";
+    document.getElementById("input-search").value = nome;
     document.getElementById("div-res").innerHTML = "";
     document.getElementById("div-text-verifica").style = "display: none;";
     document.getElementById("div-search").style = "margin-bottom: 2rem;";
     document.getElementById("div-main-row").style = "";
-    document.getElementById("certificates-by-year").style = "height: 75%;";
+    document.getElementById("certificates-by-year").style = "height: 80%;";
 
     var partInit = "<div class=\"container-fluid p-0 h-100\"><div class=\"row h-100 align-items-center justify-content-center text-center\">",
-        part1yl = "<div class=\"col-lg-3 div-year\"><a class=\"certificates-by-year-box a-cert\" href=\"#div-cert-",
+        part1yl = "<div class=\"col-lg-3 col-md-3 col-sm-4 col-5 div-year\"><a class=\"certificates-by-year-box a-cert\" href=\"#div-cert-",
         part3yl = "\" onclick=\"showCertificates(\'",
         part5yl = "\')\"><img class=\"img-fluid img-year\" src=\"assets/",
-        part7yl = ".png\"/><div class=\"certificates-by-year-box-caption div-year-inside\"><div class=\"project-category text-white-50\">N# Certificados</div><div class=\"project-name\" style=\"font-size:5rem;\">",
+        part7yl = ".png\"/><div class=\"certificates-by-year-box-caption div-year-inside\"><div class=\"project-category text-white-50\">N# Certificados</div><div class=\"project-name\" style=\"font-size:4rem;\">",
         part9yl = "</div></div></a></div>";
 
     var part1cl = "<div class=\"container py-3 mfp-hide\" id=\"div-cert-",
-        part3cl = "\"><div class=\"row align-items-center justify-content-center text-center\"><div class=\"col-lg-1 div-cert-title\">Ano</div><div class=\"col-lg-4 div-cert-title\">Ações</div><div class=\"col-lg-7 div-cert-title\">Nome dos eventos</div>",
-        part5cll = "<div class=\"col-lg-1 div-cert-content-",
+        part3cl = "\"><div class=\"row align-items-center justify-content-center text-center\"><div class=\"col-lg-1 col-2 div-cert-title\">Ano</div><div class=\"col-lg-4 col-4 div-cert-title\">Ações</div><div class=\"col-lg-7 col-6 div-cert-title\">Nome dos eventos</div>",
+        part5cll = "<div class=\"col-lg-1 col-2 div-cert-content-",
         part7cll = "\">",
-        part9cll = "</div><div class=\"col-lg-2 div-cert-content-",
+        part9cll = "</div><div class=\"col-lg-2 col-2 div-cert-content-",
         part11cll = "\"><a target=\"_blank\" href=\"",
-        part14cll = "\">Ver</a></div><div class=\"col-lg-2 div-cert-content-",
+        part14cll = "\">Ver</a></div><div class=\"col-lg-2 col-2 div-cert-content-",
         part16cll = "\"><a target=\"_blank\" href=\"",
-        part19cll = "\">Baixar</a></div><div class=\"col-lg-7 div-cert-content-",
+        part19cll = "\">Baixar</a></div><div class=\"col-lg-7 col-6 div-cert-content-",
         part21cll = "\"data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"",
         part23cll = "\">",
         part25cll = "</div>",
@@ -119,7 +119,7 @@ function searchCertificates(nome) {
             //certObj[_year].push(value)
 
             var auxColor = ((alternateColor % 2) + 1).toString();
-            var strAuxCert = part5cll + auxColor + part7cll + _year + part9cll + auxColor + part11cll + linkVer + value[0] + part14cll + auxColor + part16cll + linkBaixar + value[0] + part19cll + auxColor + part21cll + value[1] + part23cll + value[1].slice(0, 20) + "[...]" + part25cll;
+            var strAuxCert = part5cll + auxColor + part7cll + _year + part9cll + auxColor + part11cll + linkVer + value[0] + part14cll + auxColor + part16cll + linkBaixar + value[0] + part19cll + auxColor + part21cll + value[1] + part23cll + value[1].slice(0, 15) + "[...]" + part25cll;
 
             strResultCert += strAuxCert;
             strAllCLL += strAuxCert;

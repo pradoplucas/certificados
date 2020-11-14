@@ -49,7 +49,7 @@
 
                     <div class="col-lg-6 align-self-baseline" style="height: 40%;" id="div-search">
                         <input type="text" onkeyup="searchName()" placeholder="Digite o nome completo" class="form-control input-search" id="input-search">
-                        <div id="div-res"></div>
+                        <div id="div-res" class="position-absolute" style="z-index: 1; width: 100%; padding-right: 30px;"></div>
                     </div>
                 </div>
 
@@ -107,27 +107,27 @@
 
                 <div class="row justify-content-center mb-5">
 
-                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                        <div class="col-lg-1 col-5 text-center mb-4 mb-lg-0">
                             <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-facebook"> <i class="fab fa-facebook-f fa-3x"></i> </a>
                         </div>
 
-                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                        <div class="col-lg-1 col-5 text-center mb-4 mb-lg-0">
                             <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-instagram"> <i class="fab fa-instagram fa-3x"></i> </a>
                         </div>
 
-                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                        <div class="col-lg-1 col-5 text-center mb-4 mb-lg-0">
                             <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-github"> <i class="fab fa-github fa-3x"></i> </a>
                         </div>
 
-                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                        <div class="col-lg-1 col-5 text-center mb-4 mb-lg-0">
                             <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-linkedin"> <i class="fab fa-linkedin-in fa-3x"></i> </a>
                         </div>
 
-                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                        <div class="col-lg-1 col-5 text-center">
                             <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-mail"> <i class="fas fa-envelope fa-3x"></i> </a>
                         </div>
 
-                        <div class="col-lg-1 text-center">
+                        <div class="col-lg-1 col-5 text-center">
                             <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-page"> <i class="fas fa-user fa-3x"></i> </a>  
                         </div>
 
@@ -142,10 +142,10 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-11">
-                        <textarea rows="3" class="form-control textarea-suggestion mx-auto" id="textarea-suggestion"></textarea>
+                    <div class="col-lg-10">
+                        <textarea rows="3" class="form-control textarea-suggestion w-lg-60 mx-auto" id="textarea-suggestion"></textarea>
                     </div>
-                    <div class="col-lg-2 align-items-center">
+                    <div class="col-lg-3 col-7 align-items-center">
                         <button type="button" class="btn btn-light button-suggestion" onclick="sendForm()" id="button-suggestion"></button>
                         <div class="col-lg-10 mx-auto" style="display: none;" id="send-suggestion"><p class="text-white text-center mt-4 bg-success py-2">Enviado</p></div>
                     </div>
