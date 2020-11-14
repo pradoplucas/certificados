@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Lucas do Prado Pinto" />
+        <title id=project-title></title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/icon1.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles/styles.css" rel="stylesheet" />
+    </head>
+
+    <body id="page-top">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a href="#">
+                    <img src="assets/icon1.png" height="40px" style="padding-right: 15px;" alt="">
+                  </a>
+                <a class="navbar-brand js-scroll-trigger font-varela" href="#page-top" id="project-name-menu"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" id="item-about"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact" id="item-contact"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row align-items-center justify-content-center text-center" style="height: 100%;" id="div-main-row">
+                    <div class="col-lg-10 align-self-end" id="div-text-verifica">
+                        <h1 class="text-white font-weight-bold font-varela text-certifica" id=project-name></h1>
+                        <hr class="divider my-4" />
+                    </div>
+
+                    <div class="col-lg-6 align-self-baseline" style="height: 40%;" id="div-search">
+                        <input type="text" onkeyup="searchName()" placeholder="Digite o nome completo" class="form-control input-search" id="input-search">
+                        <div id="div-res"></div>
+                    </div>
+                </div>
+
+                <!-- Years-->
+                <section id="certificates-by-year" style="display: none;"></section>
+            </div>
+        </header>
+
+        <!-- About-->
+        <section class="page-section bg-black" id="about">
+            <div class="container">
+                <div class="row justify-content-center" style="padding-bottom: 20px;">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0" id="title-what-sgce"></h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-gray mb-4" id="what-sgce"></p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center" style="padding-top: 20px; padding-bottom: 20px;">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0" id="title-what-certifica"></h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-gray mb-4" id="what-certifica"></p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center" style="padding-top: 20px;">
+                    <div class="col-lg-4 text-center">
+                        <h2 class="text-white mt-0" id="title-info-1"></h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-gray mb-4" id="info-1"></p>
+                    </div>
+
+                    <div class="col-lg-4 text-center">
+                        <h2 class="text-white mt-0" id="title-info-2"></h2>
+                        <hr class="divider light my-4" />
+                        <p class="text-gray mb-4" id="info-2"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-->
+        <section class="page-section bg-dark" id="contact">
+            <div class="container">
+
+                <div class="row justify-content-center mb-2">
+                    <div class="col-lg-8 col-sm-6 text-center ">
+                        <h2 class="text-white" id="contact-section"></h2>
+                        <hr class="divider my-4" />
+                        <p class="text-gray" id="contact-description"></p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mb-5">
+
+                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                            <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-facebook"> <i class="fab fa-facebook-f fa-3x"></i> </a>
+                        </div>
+
+                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                            <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-instagram"> <i class="fab fa-instagram fa-3x"></i> </a>
+                        </div>
+
+                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                            <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-github"> <i class="fab fa-github fa-3x"></i> </a>
+                        </div>
+
+                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                            <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-linkedin"> <i class="fab fa-linkedin-in fa-3x"></i> </a>
+                        </div>
+
+                        <div class="col-lg-1 text-center mb-4 mb-lg-0">
+                            <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-mail"> <i class="fas fa-envelope fa-3x"></i> </a>
+                        </div>
+
+                        <div class="col-lg-1 text-center">
+                            <a class="btn btn-light btn-social-lg mb-2" target="_blank" id="contact-page"> <i class="fas fa-user fa-3x"></i> </a>  
+                        </div>
+
+                </div>
+
+                <div class="row justify-content-center mb-2">
+                    <div class="col-lg-8 col-sm-6 text-center">
+                        <h2 class="text-white" id="title-suggestion"></h2>
+                        <hr class="divider my-4" />
+                        <p class="text-gray" id="suggestion"></p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-11">
+                        <textarea rows="3" class="form-control textarea-suggestion mx-auto" id="textarea-suggestion"></textarea>
+                    </div>
+                    <div class="col-lg-2 align-items-center">
+                        <button type="button" class="btn btn-light button-suggestion" onclick="sendForm()" id="button-suggestion"></button>
+                        <div class="col-lg-10 mx-auto" style="display: none;" id="send-suggestion"><p class="text-white text-center mt-4 bg-success py-2">Enviado</p></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="bg-black py-5">
+            <div class="container">
+                <div class="small text-center text-white" id="copyright"></div>
+            </div>
+        </footer>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts/infos.js"></script>
+        <script src="scripts/scripts.js"></script>
+        <script src="scripts/defs.js"></script>
+        <script src="scripts/results.json"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+O que é o SGCE!?
+O [Sistema de Gestão de Certificados Eletrônicos (SGCE)][link: https://softwarepublico.gov.br/social/sgce] é um software público que permite a criação, gestão e validação de certificados eletrônicos, sendo que a UTFPR o utiliza ([UTFPR-SGCE][link: http://apl.utfpr.edu.br/extensao/certificados/listaPublica]).
+
+
+O que é o CertificaUTF!?
+Levando em consiração que o [UTFPR-SGCE][link: http://apl.utfpr.edu.br/extensao/certificados/listaPublica] não permite uma consulta por nome, fica um pouco difícil encontrar todos os certificados de eventos que participamos. Mesmo que o certificado chegue por e-mail no momento em que é gerado, a maioria das pessoas acabam perdendo o acesso a ele por diversos motivos.
+Sendo assim, essa aplicação têm o objetivo de facilitar o acesso das pessoas aos seus certificados, através de uma pesquisa por nome.
+
+
+info# 1
+Contando todos os câmpus da UTFPR, foram encontrados 6184 eventos que geraram certificados no UTFPR-SGCE, somando cerca de 96228 pessoas diferentes e 322157 certificados únicos.
+
+info# 2
+Em alguns casos, os dados para gerar os certificados são passados manualmente, causando erros e inconsistências, portanto, quando digitar seu nome ou sobrenome, verifique as opções que aparecem, pois pode ser que existam dois ou mais registros sobre você no sistema.
